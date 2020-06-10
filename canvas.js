@@ -407,8 +407,9 @@ function animate_4() {
 
 var random_num = Math.floor(Math.random() * 5)
 if (random_num == 0){
-    for (var i = 0; i < 35; i++){
-        for (var j = 0; j < 35; j++){
+    var num = Math.max(window.innerHeight, window.innerWidth) / 50 + 2
+    for (var i = 0; i < num; i++){
+        for (var j = 0; j < num; j++){
             boxes.push(new Box(i * 50, j * 50));
         }
     }
