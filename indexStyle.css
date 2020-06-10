@@ -11,23 +11,23 @@ body {
 	background-color: rgb(240, 240, 240);
 	position: absolute;
 	top: 50;
-	left: 50;
-	height: 200px;
-	width: 450px;
+	left: 20;
+	height: 150px;
+	width: 400px;
 	box-shadow: 2px 2px 5px black;
 }
 
 h1 {
-	font-size: 75px;
+	font-size: 60px;
 	padding: 0px;
 	margin: 0px;
 	margin-bottom: 30px;
-	margin-left: 15px;
+	margin-left: 30px;
 }
 
 #link_container {
-	margin-left: 40px;
-	font-size: 25px;
+	margin-left: 50px;
+	font-size: 20px;
 }
 
 a {
