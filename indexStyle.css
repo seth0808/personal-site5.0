@@ -12,22 +12,22 @@ body {
 	position: absolute;
 	top: 50;
 	left: 20;
-	height: 150px;
-	width: 400px;
+	height: 100px;
+	width: 300px;
 	box-shadow: 2px 2px 5px black;
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 40px;
 	padding: 0px;
 	margin: 0px;
-	margin-bottom: 30px;
-	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-left: 35px;
 }
 
 #link_container {
-	margin-left: 50px;
-	font-size: 20px;
+	margin-left: 38px;
+	font-size: 15px;
 }
 
 a {
