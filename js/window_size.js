@@ -8,4 +8,4 @@ setInterval(function(){
         $("h1").css("width", "690");
     }
 
-}, 3000);
+}, 1000);
