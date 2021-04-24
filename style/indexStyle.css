@@ -12,8 +12,8 @@ body {
 	position: absolute;
 	top: 50;
 	left: 20;
-	height: 90px;
-	width: 500px;
+	height: 170px;
+	width: 300px;
 	box-shadow: 2px 2px 5px black;
 	text-align: center;
 }
@@ -32,8 +32,8 @@ p {
 	font-size: 15px;
 	border: 1px solid red;
 	border-radius: 10px;
-	margin-left: 80px;
-	margin-right: 80px;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 
 a {
