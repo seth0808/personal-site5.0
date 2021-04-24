@@ -12,27 +12,37 @@ body {
 	position: absolute;
 	top: 50;
 	left: 20;
-	height: 100px;
-	width: 300px;
+	height: 90px;
+	width: 500px;
 	box-shadow: 2px 2px 5px black;
+	text-align: center;
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 25px;
 	padding: 0px;
 	margin: 0px;
 	margin-bottom: 10px;
-	margin-left: 35px;
+}
+p {
+	font-size: 20px;
 }
 
 #link_container {
-	margin-left: 40px;
 	font-size: 15px;
+	border: 1px solid red;
+	border-radius: 10px;
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
 a {
-	color: black;
+	color: red;
 	text-decoration: none;
+}
+
+a:hover {
+	color: black;
 }
 
 

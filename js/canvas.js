@@ -406,6 +406,7 @@ function animate_4() {
 
 
 var random_num = Math.floor(Math.random() * 5)
+console.log(random_num)
 if (random_num == 0){
     var num = Math.max(window.innerHeight, window.innerWidth) / 50 + 2
     for (var i = 0; i < num; i++){
@@ -425,7 +426,7 @@ if (random_num == 0){
     animate_3()
 }else {
     for (var i = 0; i < box_width; i ++){
-        boxes.push(new Box(0, i * 30, Math.random() * -500 - 10));
+        boxes.push(new Box_5(0, i * 30, Math.random() * -500 - 10));
     }
     animate_4()
 }
